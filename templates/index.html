@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Country!</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+</head>
+<body class="mainbody">
+    <header class="header">
+        <h1>Guess the Country!</h1>
+    </header>
+
+    <main>
+        <form action="/results" method="POST" class="formulario">
+            <input type="text" name="guess" id="guess-input" placeholder="Enter the Country"/>
+            <input type="hidden" name="country_name" value="{{ country_name }}">
+            <input type="submit" value="Submit">
+            {% if wrong_guesses < 6 %}
+            <button type="submit" name="action" value="skip">Skip</button>
+            {% endif %}
+        </form>
+
+        <!-- Country Details Section -->
+        <div id="country-details">
+            <h2>Country Details</h2>
+            <!-- Hide the country name -->
+            <p>Country: <span id="country">???????</span></p>
+            {% if wrong_guesses >= 2 %}
+            <p>Continent: <span id="continent">{{ country.Continent.values()|first }}</span></p>
+            {% endif %}
+            {% if wrong_guesses >= 4 %}
+            <p>Capital: <span id="capital">{{ country.Capital.values()|first }}</span></p>
+            {% endif %}
+            <img class="outline" src="{{ country.Outline.values()|first }}" alt="Outline">
+            {% if wrong_guesses >= 6 %}
+            <!-- Display the flag and outline using paths from the CSV -->
+            <img class="flag" src="{{ country.Flag.values()|first }}" alt="Flag">
+            {% endif %}
+        </div>
+
+        <!-- Message for incorrect guess or game over -->
+        {% if message %}
+        <div id="message">
+            <p id="try-again-message">{{ message }}</p>
+            {% if message == "You've guessed the correct answer!" or wrong_guesses >= 8 %}
+            <form action="/" method="GET">
+                <input type="submit" value="Play Again">
+            </form>
+            {% endif %}
+        </div>
+        {% endif %}
+    </main>
+
+    <footer>
+        <!-- <p>&copy; 2024 YourGameName</p> -->
+    </footer> 
+</body>
+</html>
