@@ -1,243 +1,198 @@
-Country;Continent;Capital;Flag;Outline
-Andorra;Europe;Andorra la Vella;static\countries\ad\ad.png;static\countries\ad\1024.png
-United Arab Emirates;Asia;Abu Dhabi;static\countries\ae\ae.png;static\countries\ae\1024.png
-Afghanistan;Asia;Kabul;static\countries\af\af.png;static\countries\af\1024.png
-Antigua and Barbuda;North America;Saint John's;static\countries\ag\ag.png;static\countries\ag\1024.png
-Anguilla;North America;The Valley;static\countries\ai\ai.png;static\countries\ai\1024.png
-Albania;Europe;Tirana;static\countries\al\al.png;static\countries\al\1024.png
-Armenia;Asia;Yerevan;static\countries\am\am.png;static\countries\am\1024.png
-Angola;Africa;Luanda;static\countries\ao\ao.png;static\countries\ao\1024.png
-Antarctica;Antarctica;None;static\countries\aq\aq.png;static\countries\aq\1024.png
-Argentina;South America;Buenos Aires;static\countries\ar\ar.png;static\countries\ar\1024.png
-American Samoa;Oceania;Pago;static\countries\as\as.png;static\countries\as\1024.png
-Austria;Europe;Vienna;static\countries\at\at.png;static\countries\at\1024.png
-Australia;Oceania;Canberra;static\countries\au\au.png;static\countries\au\1024.png
-Aruba;North America;Oranjestad;static\countries\aw\aw.png;static\countries\aw\1024.png
-�land Islands;Europe;Mariehamn;static\countries\ax\ax.png;static\countries\ax\1024.png
-Azerbaijan;Asia;Baku;static\countries\az\az.png;static\countries\az\1024.png
-Bosnia and Herzegovina;Europe;Sarajevo;static\countries\ba\ba.png;static\countries\ba\1024.png
-Barbados;North America;Bridgetown;static\countries\bb\bb.png;static\countries\bb\1024.png
-Bangladesh;Asia;Dhaka;static\countries\bd\bd.png;static\countries\bd\1024.png
-Belgium;Europe;Brussels;static\countries\be\be.png;static\countries\be\1024.png
-Burkina Faso;Africa;Ouagadougou;static\countries\bf\bf.png;static\countries\bf\1024.png
-Bulgaria;Europe;Sofia;static\countries\bg\bg.png;static\countries\bg\1024.png
-Bahrain;Asia;Manama;static\countries\bh\bh.png;static\countries\bh\1024.png
-Burundi;Africa;Gitega;static\countries\bi\bi.png;static\countries\bi\1024.png
-Benin;Africa;Porto-Novo;static\countries\bj\bj.png;static\countries\bj\1024.png
-Saint Barth�lemy;North America;Gustavia;static\countries\bl\bl.png;static\countries\bl\1024.png
-Bermuda;North America;Hamilton;static\countries\bm\bm.png;static\countries\bm\1024.png
-Brunei Darussalam;Asia;Bandar Seri Begawan;static\countries\bn\bn.png;static\countries\bn\1024.png
-Bolivia;South America;Sucre;static\countries\bo\bo.png;static\countries\bo\1024.png
-Bonaire, Sint Eustatius and Saba;North America;Kralendijk;static\countries\bq\bq.png;static\countries\bq\1024.png
-Brazil;South America;Bras�lia;static\countries\br\br.png;static\countries\br\1024.png
-Bahamas;North America;Nassau;static\countries\bs\bs.png;static\countries\bs\1024.png
-Bhutan;Asia;Thimphu;static\countries\bt\bt.png;static\countries\bt\1024.png
-Bouvet Island;Antarctica;None;static\countries\bv\bv.png;static\countries\bv\1024.png
-Botswana;Africa;Gaborone;static\countries\bw\bw.png;static\countries\bw\1024.png
-Belarus;Europe;Minsk;static\countries\by\by.png;static\countries\by\1024.png
-Belize;North America;Belmopan;static\countries\bz\bz.png;static\countries\bz\1024.png
-Canada;North America;Ottawa;static\countries\ca\ca.png;static\countries\ca\1024.png
-Cocos (Keeling) Islands;Asia;West Island;static\countries\cc\cc.png;static\countries\cc\1024.png
-Democratic Republic of the Congo;Africa;Kinshasa;static\countries\cd\cd.png;static\countries\cd\1024.png
-Central African Republic;Africa;Bangui;static\countries\cf\cf.png;static\countries\cf\1024.png
-Republic of the Congo;Africa;Brazzaville;static\countries\cg\cg.png;static\countries\cg\1024.png
-Switzerland;Europe;Bern;static\countries\ch\ch.png;static\countries\ch\1024.png
-C�te d'Ivoire;Africa;Yamoussoukro;static\countries\ci\ci.png;static\countries\ci\1024.png
-Cook Islands;Oceania;Avarua;static\countries\ck\ck.png;static\countries\ck\1024.png
-Chile;South America;Santiago;static\countries\cl\cl.png;static\countries\cl\1024.png
-Cameroon;Africa;Yaound�;static\countries\cm\cm.png;static\countries\cm\1024.png
-China;Asia;Beijing;static\countries\cn\cn.png;static\countries\cn\1024.png
-Colombia;South America;Bogot�;static\countries\co\co.png;static\countries\co\1024.png
-Costa Rica;North America;San Jos�;static\countries\cr\cr.png;static\countries\cr\1024.png
-Cuba;North America;Havana;static\countries\cu\cu.png;static\countries\cu\1024.png
-Cabo Verde;Africa;Praia;static\countries\cv\cv.png;static\countries\cv\1024.png
-Cura�ao;North America;Willemstad;static\countries\cw\cw.png;static\countries\cw\1024.png
-Christmas Island;Asia;Flying Fish Cove;static\countries\cx\cx.png;static\countries\cx\1024.png
-Cyprus;Europe;Nicosia;static\countries\cy\cy.png;static\countries\cy\1024.png
-Czech Republic;Europe;Prague;static\countries\cz\cz.png;static\countries\cz\1024.png
-Germany;Europe;Berlin;static\countries\de\de.png;static\countries\de\1024.png
-Djibouti;Africa;Djibouti;static\countries\dj\dj.png;static\countries\dj\1024.png
-Denmark;Europe;Copenhagen;static\countries\dk\dk.png;static\countries\dk\1024.png
-Dominica;North America;Roseau;static\countries\dm\dm.png;static\countries\dm\1024.png
-Dominican Republic;North America;Santo Domingo;static\countries\do\do.png;static\countries\do\1024.png
-Algeria;Africa;Algiers;static\countries\dz\dz.png;static\countries\dz\1024.png
-Ecuador;South America;Quito;static\countries\ec\ec.png;static\countries\ec\1024.png
-Estonia;Europe;Tallinn;static\countries\ee\ee.png;static\countries\ee\1024.png
-Egypt;Africa;Cairo;static\countries\eg\eg.png;static\countries\eg\1024.png
-Western Sahara;Africa;El Aai�n;static\countries\eh\eh.png;static\countries\eh\1024.png
-Eritrea;Africa;Asmara;static\countries\er\er.png;static\countries\er\1024.png
-Spain;Europe;Madrid;static\countries\es\es.png;static\countries\es\1024.png
-Ethiopia;Africa;Addis Ababa;static\countries\et\et.png;static\countries\et\1024.png
-Finland;Europe;Helsinki;static\countries\fi\fi.png;static\countries\fi\1024.png 
-Fiji;Oceania;Suva;static\countries\fj\fj.png;static\countries\fj\1024.png 
-Falkland Islands;South America;Stanley;static\countries\fk\fk.png;static\countries\fk\1024.png
-Faroe Islands;Europe;T�rshavn;static\countries\fo\fo.png;static\countries\fo\1024.png
-France;Europe;Paris;static\countries\fr\fr.png;static\countries\fr\1024.png
-Gabon;Africa;Libreville;static\countries\ga\ga.png;static\countries\ga\1024.png
-United Kingdom;Europe;London;static\countries\gb\gb.png;static\countries\gb\1024.png
-Grenada;North America;St. George's;static\countries\gd\gd.png;static\countries\gd\1024.png
-Georgia;Asia;Tbilisi;static\countries\ge\ge.png;static\countries\ge\1024.png
-French Guiana;South America;Cayenne;static\countries\gf\gf.png;static\countries\gf\1024.png
-Guernsey;Europe;St.Peter Port;static\countries\gg\gg.png;static\countries\gg\1024.png
-Ghana;Africa;Accra;static\countries\gh\gh.png;static\countries\gh\1024.png
-Gibraltar;Europe;Gibraltar;static\countries\gi\gi.png;static\countries\gi\1024.png
-Greenland;North America;Nuuk;static\countries\gl\gl.png;static\countries\gl\1024.png 
-Gambia;Africa;Banjul;static\countries\gm\gm.png;static\countries\gm\1024.png
-Guinea;Africa;Conakry;static\countries\gn\gn.png;static\countries\gn\1024.png
-Guadeloupe;North America;Basse-Terre;static\countries\gp\gp.png;static\countries\gp\1024.png
-Equatorial Guinea;Africa;Malabo;static\countries\gq\gq.png;static\countries\gq\1024.png
-Greece;Europe;Athens;static\countries\gr\gr.png;static\countries\gr\1024.png
-South Georgia and the South Sandwich Islands;Antarctica;None;static\countries\gs\gs.png;static\countries\gs\1024.png
-Guatemala;North America;Guatemala City;static\countries\gt\gt.png;static\countries\gt\1024.png
-Guam;Oceania;Hag�t�a;static\countries\gu\gu.png;static\countries\gu\1024.png
-Guinea-Bissau;Africa;Bissau;static\countries\gw\gw.png;static\countries\gw\1024.png
-Guyana;South America;Georgetown;static\countries\gy\gy.png;static\countries\gy\1024.png
-Hong Kong;Asia;None;static\countries\hk\hk.png;static\countries\hk\1024.png
-Heard Island and McDonald Islands;Antarctica;None;static\countries\hm\hm.png;static\countries\hm\1024.png
-Honduras;North America;Tegucigalpa;static\countries\hn\hn.png;static\countries\hn\1024.png
-Croatia;Europe;Zagreb;static\countries\hr\hr.png;static\countries\hr\1024.png
-Haiti;North America;Port-au-Prince;static\countries\ht\ht.png;static\countries\ht\1024.png
-Hungary;Europe;Budapest;static\countries\hu\hu.png;static\countries\hu\1024.png
-Indonesia;Asia;Jakarta;static\countries\id\id.png;static\countries\id\1024.png
-Ireland;Europe;Dublin;static\countries\ie\ie.png;static\countries\ie\1024.png
-Israel;Asia;Jerusalem;static\countries\il\il.png;static\countries\il\1024.png
-Isle of Man;Europe;Douglas;static\countries\im\im.png;static\countries\im\1024.png
-India;Asia;New Delhi;static\countries\in\in.png;static\countries\in\1024.png
-British Indian Ocean Territorry;Africa;None;static\countries\io\io.png;static\countries\io\1024.png
-Iraq;Asia;Baghdad;static\countries\iq\iq.png;static\countries\iq\1024.png
-Iran;Asia;Tehran;static\countries\ir\ir.png;static\countries\ir\1024.png
-Iceland;Europe;Reykjavik;static\countries\is\is.png;static\countries\is\1024.png
-Italy;Europe;Rome;static\countries\it\it.png;static\countries\it\1024.png
-Jamaica;North America;Kingston;static\countries\jm\jm.png;static\countries\jm\1024.png
-Jordan;Asia;Amman;static\countries\jo\jo.png;static\countries\jo\1024.png
-Japan;Asia;Tokyo;static\countries\jp\jp.png;static\countries\jp\1024.png
-Kenya;Africa;Nairobi;static\countries\ke\ke.png;static\countries\ke\1024.png
-Kyrgyzstan;Asia;Bishkek;static\countries\kg\kg.png;static\countries\kg\1024.png
-Cambodia;Asia;Phnom Penh;static\countries\kh\kh.png;static\countries\kh\1024.png
-Kiribati;Oceania;Tarawa;static\countries\ki\ki.png;static\countries\ki\1024.png
-Comoros;Africa;Moroni;static\countries\km\km.png;static\countries\km\1024.png
-Saint Kitts and Nevis;North America;Basseterre;static\countries\kn\kn.png;static\countries\kn\1024.png
-North Korea;Asia;Pyongyang;static\countries\kp\kp.png;static\countries\kp\1024.png
-South Korea;Asia;Seoul;static\countries\kr\kr.png;static\countries\kr\1024.png
-Kuwait;Asia;Kuwait City;static\countries\kw\kw.png;static\countries\kw\1024.png
-Cayman Islands;North America;George Town;static\countries\ky\ky.png;static\countries\ky\1024.png
-Kazakhstan;Asia;Nur-Sultan;static\countries\kz\kz.png;static\countries\kz\1024.png
-Laos;Asia;Vientiane;static\countries\la\la.png;static\countries\la\1024.png
-Lebanon;Asia;Beirut;static\countries\lb\lb.png;static\countries\lb\1024.png
-Saint Lucia;North America;Castries;static\countries\lc\lc.png;static\countries\lc\1024.png
-Liechtenstein;Europe;Vaduz;static\countries\li\li.png;static\countries\li\1024.png
-Sri Lanka;Asia;Sri Jayawardenepura Kotte;static\countries\lk\lk.png;static\countries\lk\1024.png
-Liberia;Africa;Monrovia;static\countries\lr\lr.png;static\countries\lr\1024.png
-Lesotho;Africa;Maseru;static\countries\ls\ls.png;static\countries\ls\1024.png 
-Lithuania;Europe;Vilnius;static\countries\lt\lt.png;static\countries\lt\1024.png
-Luxembourg;Europe;Luxembourg City;static\countries\lu\lu.png;static\countries\lu\1024.png
-Latvia;Europe;Riga;static\countries\lv\lv.png;static\countries\lv\1024.png
-Libya;Africa;Tripoli;static\countries\ly\ly.png;static\countries\ly\1024.png
-Morocco;Africa;Rabat;static\countries\ma\ma.png;static\countries\ma\1024.png
-Monaco;Europe;Monaco;static\countries\mc\mc.png;static\countries\mc\1024.png
-Moldova;Europe;Chisinau;static\countries\md\md.png;static\countries\md\1024.png
-Montenegro;Europe;Podgorica;static\countries\me\me.png;static\countries\me\1024.png
-Saint Martin;North America;Marigot;static\countries\mf\mf.png;static\countries\mf\1024.png
-Madagascar;Africa;Antananarivo;static\countries\mg\mg.png;static\countries\mg\1024.png
-North Macedonia;Europe;Skopje;static\countries\mk\mk.png;static\countries\mk\1024.png
-Mali;Africa;Bamako;static\countries\ml\ml.png;static\countries\ml\1024.png
-Myanmar;Asia;Naypyidaw;static\countries\mm\mm.png;static\countries\mm\1024.png
-Mongolia;Asia;Ulaanbaatar;static\countries\mn\mn.png;static\countries\mn\1024.png
-Macau;Asia;None;static\countries\mo\mo.png;static\countries\mo\1024.png
-Martinique;North America;Fort-de-France;static\countries\mq\mq.png;static\countries\mq\1024.png
-Mauritania;Africa;Nouakchott;static\countries\mr\mr.png;static\countries\mr\1024.png
-Montserrat;North America;Plymouth;static\countries\ms\ms.png;static\countries\ms\1024.png
-Malta;Europe;Valletta;static\countries\mt\mt.png;static\countries\mt\1024.png
-Mauritius;Africa;Port Louis;static\countries\mu\mu.png;static\countries\mu\1024.png
-Maldives;Asia;Male;static\countries\mv\mv.png;static\countries\mv\1024.png
-Malawi;Africa;Lilongwe;static\countries\mw\mw.png;static\countries\mw\1024.png
-Mexico;North America;Mexico City;static\countries\mx\mx.png;static\countries\mx\1024.png
-Malaysia;Asia;Kuala Lumpur;static\countries\my\my.png;static\countries\my\1024.png
-Mozambique;Africa;Maputo;static\countries\mz\mz.png;static\countries\mz\1024.png
-Namibia;Africa;Windhoek;static\countries\na\na.png;static\countries\na\1024.png
-New Caledonia;Oceania;Noum�a;static\countries\nc\nc.png;static\countries\nc\1024.png
-Niger;Africa;Niamey;static\countries\ne\ne.png;static\countries\ne\1024.png
-Norfolk Island;Oceania;Kingston;static\countries\nf\nf.png;static\countries\nf\1024.png
-Nigeria;Africa;Abuja;static\countries\ng\ng.png;static\countries\ng\1024.png
-Nicaragua;North America;Managua;static\countries\ni\ni.png;static\countries\ni\1024.png
-Netherlands;Europe;Amsterdam;static\countries\nl\nl.png;static\countries\nl\1024.png
-Norway;Europe;Oslo;static\countries\no\no.png;static\countries\no\1024.png
-Nepal;Asia;Kathmandu;static\countries\np\np.png;static\countries\np\1024.png
-Nauru;Oceania;Yaren;static\countries\nr\nr.png;static\countries\nr\1024.png
-Niue;Oceania;Alofi;static\countries\nu\nu.png;static\countries\nu\1024.png
-New Zealand;Oceania;Wellington;static\countries\nz\nz.png;static\countries\nz\1024.png
-Oman;Asia;Muscat;static\countries\om\om.png;static\countries\om\1024.png
-Panama;North America;Panama City;static\countries\pa\pa.png;static\countries\pa\1024.png
-Peru;South America;Lima;static\countries\pe\pe.png;static\countries\pe\1024.png
-French Polynesia;Oceania;Papeet?;static\countries\pf\pf.png;static\countries\pf\1024.png
-Papua New Guinea;Oceania;Port Moresby;static\countries\pg\pg.png;static\countries\pg\1024.png
-Philippines;Asia;Manila;static\countries\ph\ph.png;static\countries\ph\1024.png
-Pakistan;Asia;Islamabad;static\countries\pk\pk.png;static\countries\pk\1024.png
-Poland;Europe;Warsaw;static\countries\pl\pl.png;static\countries\pl\1024.png
-Saint  Pierre and Miquelon;North America;St. Pierre;static\countries\pm\pm.png;static\countries\pm\1024.png
-Pitcairn Islands;Oceania;Adamstown;static\countries\pn\pn.png;static\countries\pn\1024.png
-Puerto Rico;North America;San Juan;static\countries\pr\pr.png;static\countries\pr\1024.png
-Portugal;Europe;Lisbon;static\countries\pt\pt.png;static\countries\pt\1024.png
-Palau;Oceania;Ngerulmud;static\countries\pw\pw.png;static\countries\pw\1024.png
-Paraguay;South America;Asunci�n;static\countries\py\py.png;static\countries\py\1024.png
-Qatar;Asia;Doha;static\countries\qa\qa.png;static\countries\qa\1024.png
-R�union;Africa;Saint-Denis;static\countries\re\re.png;static\countries\re\1024.png
-Romania;Europe;Bucharest;static\countries\ro\ro.png;static\countries\ro\1024.png
-Serbia;Europe;Belgrade;static\countries\rs\rs.png;static\countries\rs\1024.png
-Russia;Europe;Moscow;static\countries\ru\ru.png;static\countries\ru\1024.png
-Rwanda;Africa;Kigali;static\countries\rw\rw.png;static\countries\rw\1024.png
-Saudi Arabia;Asia;Riyadh;static\countries\sa\sa.png;static\countries\sa\1024.png
-Solomon Islands;Oceania;Honiara;static\countries\sb\sb.png;static\countries\sb\1024.png
-Seychelles;Africa;Victoria;static\countries\sc\sc.png;static\countries\sc\1024.png
-Sudan;Africa;Khartoum;static\countries\sd\sd.png;static\countries\sd\1024.png
-Sweden;Europe;Stockholm;static\countries\se\se.png;static\countries\se\1024.png
-Singapore;Asia;Singapore;static\countries\sg\sg.png;static\countries\sg\1024.png
-Saint Helena;Africa;Jamestown;static\countries\sh\sh.png;static\countries\sh\1024.png
-Slovenia;Europe;Ljubljana;static\countries\si\si.png;static\countries\si\1024.png
-Svalbard and Jan Mayen;Europe;Longyearbyen;static\countries\sj\sj.png;static\countries\sj\1024.png
-Slovakia;Europe;Bratislava;static\countries\sk\sk.png;static\countries\sk\1024.png
-Sierra Leone;Africa;Freetown;static\countries\sl\sl.png;static\countries\sl\1024.png
-San Marino;Europe;San Marino;static\countries\sm\sm.png;static\countries\sm\1024.png
-Senegal;Africa;Dakar;static\countries\sn\sn.png;static\countries\sn\1024.png
-Somalia;Africa;Mogadishu;static\countries\so\so.png;static\countries\so\1024.png
-Suriname;South America;Paramaribo;static\countries\sr\sr.png;static\countries\sr\1024.png
-South Sudan;Africa;Juba;static\countries\ss\ss.png;static\countries\ss\1024.png
-S�o Tom� and Pr�ncipe;Africa;S�o Tom�;static\countries\st\st.png;static\countries\st\1024.png
-El Salvador; North America;San Salvador;static\countries\sv\sv.png;static\countries\sv\1024.png
-Sint Maarten;North America;Philipsburg;static\countries\sx\sx.png;static\countries\sx\1024.png
-Syria;Asia;Damascus;static\countries\sy\sy.png;static\countries\sy\1024.png
-Eswatini;Africa;Mbabane;static\countries\sz\sz.png;static\countries\sz\1024.png
-Turks and Caicos Islands;North America;Cockburn Town;static\countries\tc\tc.png;static\countries\tc\1024.png
-Chad;Africa;N'Djamena;static\countries\td\td.png;static\countries\td\1024.png
-French Southern and Antarctic Lands;Antarctica;None;static\countries\tf\tf.png;static\countries\tf\1024.png
-Togo;Africa;Lom�;static\countries\tg\tg.png;static\countries\tg\1024.png
-Thailand;Asia;Bangkok;static\countries\th\th.png;static\countries\th\1024.png
-Tajikistan;Asia;Dushanbe;static\countries\tj\tj.png;static\countries\tj\1024.png
-Tokelau;Oceania;Atafu;static\countries\tk\tk.png;static\countries\tk\1024.png
-Timor-Leste;Asia;Dili;static\countries\tl\tl.png;static\countries\tl\1024.png
-Turkmenistan;Asia;Ashgabat;static\countries\tm\tm.png;static\countries\tm\1024.png
-Tunisia;Africa;Tunis;static\countries\tn\tn.png;static\countries\tn\1024.png
-Tonga;Oceania;Nuku'alofa;static\countries\to\to.png;static\countries\to\1024.png
-Turkey;Asia;Ankara;static\countries\tr\tr.png;static\countries\tr\1024.png
-Trinidad and Tobago;South America;Port of Spain;static\countries\tt\tt.png;static\countries\tt\1024.png
-Taiwan;Asia;Taipei;static\countries\tw\tw.png;static\countries\tw\1024.png
-Tanzania;Africa;Dodoma;static\countries\tz\tz.png;static\countries\tz\1024.png
-Ukraine;Europe;Kyiv;static\countries\ua\ua.png;static\countries\ua\1024.png
-Uganda;Africa;Kampala;static\countries\ug\ug.png;static\countries\ug\1024.png
-United States;North America;Washington, D.C.;static\countries\us\us.png;static\countries\us\1024.png
-Uruguay;South America;Montevideo;static\countries\uy\uy.png;static\countries\uy\1024.png
-Uzbekistan;Asia;Tashkent;static\countries\uz\uz.png;static\countries\uz\1024.png
-Vatican City;Europe;Vatican City;static\countries\va\va.png;static\countries\va\1024.png
-Saint Vincent and the Grenadines;North America;Kingstown;static\countries\vc\vc.png;static\countries\vc\1024.png
-Venezuela;South America;Caracas;static\countries\ve\ve.png;static\countries\ve\1024.png
-British Virgin Islands;North America;Road Town;static\countries\vg\vg.png;static\countries\vg\1024.png
-United States Virgin Islands;North America;Charlotte Amalie;static\countries\vi\vi.png;static\countries\vi\1024.png
-Vietnam;Asia;Hanoi;static\countries\vn\vn.png;static\countries\vn\1024.png
-Vanuatu;Oceania;Port Vila;static\countries\vu\vu.png;static\countries\vu\1024.png
-Wallis and Futuna;Oceania;Mata-Utu;static\countries\wf\wf.png;static\countries\wf\1024.png
-Samoa;Oceania;Apia;static\countries\ws\ws.png;static\countries\ws\1024.png
-Yemen;Asia;Sana'a;static\countries\ye\ye.png;static\countries\ye\1024.png
-Mayotte;Africa;Mamoudzou;static\countries\yt\yt.png;static\countries\yt\1024.png
-South Africa;Africa;Pretoria;static\countries\za\za.png;static\countries\za\1024.png
-Zambia;Africa;Lusaka;static\countries\zm\zm.png;static\countries\zm\1024.png
-Zimbabwe;Africa;Harare;static\countries\zw\zw.png;static\countries\zw\1024.png
+Country,Continent,Capital,Flag,Outline
+Andorra,Europe,Andorra la Vella,static\countries\ad\ad.png,static\countries\ad\1024.png
+United Arab Emirates,Asia,Abu Dhabi,static\countries\ae\ae.png,static\countries\ae\1024.png
+Afghanistan,Asia,Kabul,static\countries\af\af.png,static\countries\af\1024.png
+Albania,Europe,Tirana,static\countries\al\al.png,static\countries\al\1024.png
+Armenia,Asia,Yerevan,static\countries\am\am.png,static\countries\am\1024.png
+Angola,Africa,Luanda,static\countries\ao\ao.png,static\countries\ao\1024.png
+Argentina,South America,Buenos Aires,static\countries\ar\ar.png,static\countries\ar\1024.png
+American Samoa,Oceania,Pago Pago,static\countries\as\as.png,static\countries\as\1024.png
+Austria,Europe,Vienna,static\countries\at\at.png,static\countries\at\1024.png
+Australia,Oceania,Canberra,static\countries\au\au.png,static\countries\au\1024.png
+Azerbaijan,Asia,Baku,static\countries\az\az.png,static\countries\az\1024.png
+Bosnia and Herzegovina,Europe,Sarajevo,static\countries\ba\ba.png,static\countries\ba\1024.png
+Barbados,North America,Bridgetown,static\countries\bb\bb.png,static\countries\bb\1024.png
+Bangladesh,Asia,Dhaka,static\countries\bd\bd.png,static\countries\bd\1024.png
+Belgium,Europe,Brussels,static\countries\be\be.png,static\countries\be\1024.png
+Burkina Faso,Africa,Ouagadougou,static\countries\bf\bf.png,static\countries\bf\1024.png
+Bulgaria,Europe,Sofia,static\countries\bg\bg.png,static\countries\bg\1024.png
+Bahrain,Asia,Manama,static\countries\bh\bh.png,static\countries\bh\1024.png
+Burundi,Africa,Bujumbura,static\countries\bi\bi.png,static\countries\bi\1024.png
+Benin,Africa,Porto-Novo,static\countries\bj\bj.png,static\countries\bj\1024.png
+Bermuda,North America,Hamilton,static\countries\bm\bm.png,static\countries\bm\1024.png
+Brunei Darussalam,Asia,Bandar Seri Begawan,static\countries\bn\bn.png,static\countries\bn\1024.png
+Bolivia,South America,Sucre,static\countries\bo\bo.png,static\countries\bo\1024.png
+Brazil,South America,Brasília,static\countries\br\br.png,static\countries\br\1024.png
+Bahamas,North America,Nassau,static\countries\bs\bs.png,static\countries\bs\1024.png
+Bhutan,Asia,Thimphu,static\countries\bt\bt.png,static\countries\bt\1024.png
+Botswana,Africa,Gaborone,static\countries\bw\bw.png,static\countries\bw\1024.png
+Belarus,Europe,Minsk,static\countries\by\by.png,static\countries\by\1024.png
+Belize,North America,Belmopan,static\countries\bz\bz.png,static\countries\bz\1024.png
+    Canada,North America,Ottawa,static\countries\ca\ca.png,static\countries\ca\1024.png
+Democratic Republic of the Congo,Africa,Kinshasa,static\countries\cd\cd.png,static\countries\cd\1024.png
+Central African Republic,Africa,Bangui,static\countries\cf\cf.png,static\countries\cf\1024.png
+Republic of the Congo,Africa,Brazzaville,static\countries\cg\cg.png,static\countries\cg\1024.png
+Switzerland,Europe,Bern,static\countries\ch\ch.png,static\countries\ch\1024.png
+Ivory Coast,Africa,Yamoussoukro,static\countries\ci\ci.png,static\countries\ci\1024.png
+Chile,South America,Santiago,static\countries\cl\cl.png,static\countries\cl\1024.png
+Cameroon,Africa,Yaoundé,static\countries\cm\cm.png,static\countries\cm\1024.png
+China,Asia,Beijing,static\countries\cn\cn.png,static\countries\cn\1024.png
+Colombia,South America,Bogotá,static\countries\co\co.png,static\countries\co\1024.png
+Costa Rica,North America,San José,static\countries\cr\cr.png,static\countries\cr\1024.png
+Cuba,North America,Havana,static\countries\cu\cu.png,static\countries\cu\1024.png
+Cape Verde,Africa,Praia,static\countries\cv\cv.png,static\countries\cv\1024.png
+Christmas Island,Oceania,Flying Fish Cove,static\countries\cx\cx.png,static\countries\cx\1024.png
+Cyprus,Asia,Nicosia,static\countries\cy\cy.png,static\countries\cy\1024.png
+Czech Republic,Europe,Prague,static\countries\cz\cz.png,static\countries\cz\1024.png
+Germany,Europe,Berlin,static\countries\de\de.png,static\countries\de\1024.png
+Djibouti,Africa,Djibouti,static\countries\dj\dj.png,static\countries\dj\1024.png
+Denmark,Europe,Copenhagen,static\countries\dk\dk.png,static\countries\dk\1024.png
+Dominica,North America,Roseau,static\countries\dm\dm.png,static\countries\dm\1024.png
+Dominican Republic,North America,Santo Domingo,static\countries\do\do.png,static\countries\do\1024.png
+Algeria,Africa,Algiers,static\countries\dz\dz.png,static\countries\dz\1024.png
+Ecuador,South America,Quito,static\countries\ec\ec.png,static\countries\ec\1024.png
+Estonia,Europe,Tallinn,static\countries\ee\ee.png,static\countries\ee\1024.png
+Egypt,Africa,Cairo,static\countries\eg\eg.png,static\countries\eg\1024.png
+Western Sahara,Africa,El Aaiún,static\countries\eh\eh.png,static\countries\eh\1024.png
+Eritrea,Africa,Asmara,static\countries\er\er.png,static\countries\er\1024.png
+Spain,Europe,Madrid,static\countries\es\es.png,static\countries\es\1024.png
+Ethiopia,Africa,Addis Ababa,static\countries\et\et.png,static\countries\et\1024.png
+Finland,Europe,Helsinki,static\countries\fi\fi.png,static\countries\fi\1024.png
+Fiji,Oceania,Suva,static\countries\fj\fj.png,static\countries\fj\1024.png
+France,Europe,Paris,static\countries\fr\fr.png,static\countries\fr\1024.png
+Gabon,Africa,Libreville,static\countries\ga\ga.png,static\countries\ga\1024.png
+United Kingdom,Europe,London,static\countries\gb\gb.png,static\countries\gb\1024.png
+Grenada,North America,St. George's,static\countries\gd\gd.png,static\countries\gd\1024.png
+Georgia,Asia,Tbilisi,static\countries\ge\ge.png,static\countries\ge\1024.png
+Ghana,Africa,Accra,static\countries\gh\gh.png,static\countries\gh\1024.png
+Gibraltar,Europe,Gibraltar,static\countries\gi\gi.png,static\countries\gi\1024.png
+Gambia,Africa,Banjul,static\countries\gm\gm.png,static\countries\gm\1024.png
+Guinea,Africa,Conakry,static\countries\gn\gn.png,static\countries\gn\1024.png
+Equatorial Guinea,Africa,Malabo,static\countries\gq\gq.png,static\countries\gq\1024.png
+Greece,Europe,Athens,static\countries\gr\gr.png,static\countries\gr\1024.png
+Guatemala,North America,Guatemala City,static\countries\gt\gt.png,static\countries\gt\1024.png
+Guinea-Bissau,Africa,Bissau,static\countries\gw\gw.png,static\countries\gw\1024.png
+Guyana,South America,Georgetown,static\countries\gy\gy.png,static\countries\gy\1024.png
+Honduras,North America,Tegucigalpa,static\countries\hn\hn.png,static\countries\hn\1024.png
+Croatia,Europe,Zagreb,static\countries\hr\hr.png,static\countries\hr\1024.png
+Haiti,North America,Port-au-Prince,static\countries\ht\ht.png,static\countries\ht\1024.png
+Hungary,Europe,Budapest,static\countries\hu\hu.png,static\countries\hu\1024.png
+Indonesia,Asia,Jakarta,static\countries\id\id.png,static\countries\id\1024.png
+Ireland,Europe,Dublin,static\countries\ie\ie.png,static\countries\ie\1024.png
+Israel,Asia,Jerusalem,static\countries\il\il.png,static\countries\il\1024.png
+India,Asia,New Delhi,static\countries\in\in.png,static\countries\in\1024.png
+Iraq,Asia,Baghdad,static\countries\iq\iq.png,static\countries\iq\1024.png
+Iran,Asia,Tehran,static\countries\ir\ir.png,static\countries\ir\1024.png
+Iceland,Europe,Reykjavik,static\countries\is\is.png,static\countries\is\1024.png
+Italy,Europe,Rome,static\countries\it\it.png,static\countries\it\1024.png
+Jamaica,North America,Kingston,static\countries\jm\jm.png,static\countries\jm\1024.png
+Jordan,Asia,Amman,static\countries\jo\jo.png,static\countries\jo\1024.png
+Japan,Asia,Tokyo,static\countries\jp\jp.png,static\countries\jp\1024.png
+Kenya,Africa,Nairobi,static\countries\ke\ke.png,static\countries\ke\1024.png
+Kyrgyzstan,Asia,Bishkek,static\countries\kg\kg.png,static\countries\kg\1024.png
+Cambodia,Asia,Phnom Penh,static\countries\kh\kh.png,static\countries\kh\1024.png
+Kiribati,Oceania,Tarawa,static\countries\ki\ki.png,static\countries\ki\1024.png
+Comoros,Africa,Moroni,static\countries\km\km.png,static\countries\km\1024.png
+Saint Kitts and Nevis,North America,Basseterre,static\countries\kn\kn.png,static\countries\kn\1024.png
+North Korea,Asia,Pyongyang,static\countries\kp\kp.png,static\countries\kp\1024.png
+South Korea,Asia,Seoul,static\countries\kr\kr.png,static\countries\kr\1024.png
+Kuwait,Asia,Kuwait City,static\countries\kw\kw.png,static\countries\kw\1024.png
+Cayman Islands,North America,George Town,static\countries\ky\ky.png,static\countries\ky\1024.png
+Kazakhstan,Asia,Nur-Sultan,static\countries\kz\kz.png,static\countries\kz\1024.png
+Laos,Asia,Vientiane,static\countries\la\la.png,static\countries\la\1024.png
+Lebanon,Asia,Beirut,static\countries\lb\lb.png,static\countries\lb\1024.png
+Saint Lucia,North America,Castries,static\countries\lc\lc.png,static\countries\lc\1024.png
+Liechtenstein,Europe,Vaduz,static\countries\li\li.png,static\countries\li\1024.png
+Sri Lanka,Asia,Sri Jayawardenepura Kotte,static\countries\lk\lk.png,static\countries\lk\1024.png
+Liberia,Africa,Monrovia,static\countries\lr\lr.png,static\countries\lr\1024.png
+Lesotho,Africa,Maseru,static\countries\ls\ls.png,static\countries\ls\1024.png
+Lithuania,Europe,Vilnius,static\countries\lt\lt.png,static\countries\lt\1024.png
+Luxembourg,Europe,Luxembourg,static\countries\lu\lu.png,static\countries\lu\1024.png
+Latvia,Europe,Riga,static\countries\lv\lv.png,static\countries\lv\1024.png
+Libya,Africa,Tripoli,static\countries\ly\ly.png,static\countries\ly\1024.png
+Morocco,Africa,Rabat,static\countries\ma\ma.png,static\countries\ma\1024.png
+Monaco,Europe,Monaco,static\countries\mc\mc.png,static\countries\mc\1024.png
+Moldova,Europe,Chișinău,static\countries\md\md.png,static\countries\md\1024.png
+Montenegro,Europe,Podgorica,static\countries\me\me.png,static\countries\me\1024.png
+Madagascar,Africa,Antananarivo,static\countries\mg\mg.png,static\countries\mg\1024.png
+Macedonia,Europe,Skopje,static\countries\mk\mk.png,static\countries\mk\1024.png
+Mali,Africa,Bamako,static\countries\ml\ml.png,static\countries\ml\1024.png
+Myanmar,Asia,Naypyidaw,static\countries\mm\mm.png,static\countries\mm\1024.png
+Mongolia,Asia,Ulaanbaatar,static\countries\mn\mn.png,static\countries\mn\1024.png
+Mauritania,Africa,Nouakchott,static\countries\mr\mr.png,static\countries\mr\1024.png
+Malta,Europe,Valletta,static\countries\mt\mt.png,static\countries\mt\1024.png
+Maldives,Asia,Male,static\countries\mv\mv.png,static\countries\mv\1024.png
+Malawi,Africa,Lilongwe,static\countries\mw\mw.png,static\countries\mw\1024.png
+Mexico,North America,Mexico City,static\countries\mx\mx.png,static\countries\mx\1024.png
+Malaysia,Asia,Kuala Lumpur,static\countries\my\my.png,static\countries\my\1024.png
+Mozambique,Africa,Maputo,static\countries\mz\mz.png,static\countries\mz\1024.png
+Namibia,Africa,Windhoek,static\countries\na\na.png,static\countries\na\1024.png
+Niger,Africa,Niamey,static\countries\ne\ne.png,static\countries\ne\1024.png
+Nigeria,Africa,Abuja,static\countries\ng\ng.png,static\countries\ng\1024.png
+Nicaragua,North America,Managua,static\countries\ni\ni.png,static\countries\ni\1024.png
+Netherlands,Europe,Amsterdam,static\countries\nl\nl.png,static\countries\nl\1024.png
+Norway,Europe,Oslo,static\countries\no\no.png,static\countries\no\1024.png
+Nepal,Asia,Kathmandu,static\countries\np\np.png,static\countries\np\1024.png
+Nauru,Oceania,Yaren,static\countries\nr\nr.png,static\countries\nr\1024.png
+New Zealand,Oceania,Wellington,static\countries\nz\nz.png,static\countries\nz\1024.png
+Oman,Asia,Muscat,static\countries\om\om.png,static\countries\om\1024.png
+Panama,North America,Panama City,static\countries\pa\pa.png,static\countries\pa\1024.png
+Peru,South America,Lima,static\countries\pe\pe.png,static\countries\pe\1024.png
+French Polynesia,Oceania,Papeetē,static\countries\pf\pf.png,static\countries\pf\1024.png
+Papua New Guinea,Oceania,Port Moresby,static\countries\pg\pg.png,static\countries\pg\1024.png
+Philippines,Asia,Manila,static\countries\ph\ph.png,static\countries\ph\1024.png
+Pakistan,Asia,Islamabad,static\countries\pk\pk.png,static\countries\pk\1024.png
+Poland,Europe,Warsaw,static\countries\pl\pl.png,static\countries\pl\1024.png
+Saint Pierre and Miquelon,North America,Saint-Pierre,static\countries\pm\pm.png,static\countries\pm\1024.png
+Portugal,Europe,Lisbon,static\countries\pt\pt.png,static\countries\pt\1024.png
+Palau,Oceania,Ngerulmud,static\countries\pw\pw.png,static\countries\pw\1024.png
+Paraguay,South America,Asunción,static\countries\py\py.png,static\countries\py\1024.png
+Qatar,Asia,Doha,static\countries\qa\qa.png,static\countries\qa\1024.png
+Romania,Europe,Bucharest,static\countries\ro\ro.png,static\countries\ro\1024.png
+Serbia,Europe,Belgrade,static\countries\rs\rs.png,static\countries\rs\1024.png
+Russia,Europe,Moscow,static\countries\ru\ru.png,static\countries\ru\1024.png
+Rwanda,Africa,Kigali,static\countries\rw\rw.png,static\countries\rw\1024.png
+Saudi Arabia,Asia,Riyadh,static\countries\sa\sa.png,static\countries\sa\1024.png
+Solomon Islands,Oceania,Honiara,static\countries\sb\sb.png,static\countries\sb\1024.png
+Seychelles,Africa,Victoria,static\countries\sc\sc.png,static\countries\sc\1024.png
+Sudan,Africa,Khartoum,static\countries\sd\sd.png,static\countries\sd\1024.png
+Sweden,Europe,Stockholm,static\countries\se\se.png,static\countries\se\1024.png
+Singapore,Asia,Singapore,static\countries\sg\sg.png,static\countries\sg\1024.png
+Slovenia,Europe,Ljubljana,static\countries\si\si.png,static\countries\si\1024.png
+Slovakia,Europe,Bratislava,static\countries\sk\sk.png,static\countries\sk\1024.png
+Sierra Leone,Africa,Freetown,static\countries\sl\sl.png,static\countries\sl\1024.png
+San Marino,Europe,San Marino,static\countries\sm\sm.png,static\countries\sm\1024.png
+Senegal,Africa,Dakar,static\countries\sn\sn.png,static\countries\sn\1024.png
+Somalia,Africa,Mogadishu,static\countries\so\so.png,static\countries\so\1024.png
+Suriname,South America,Paramaribo,static\countries\sr\sr.png,static\countries\sr\1024.png
+South Sudan,Africa,Juba,static\countries\ss\ss.png,static\countries\ss\1024.png
+São Tomé and Príncipe,Africa,São Tomé,static\countries\st\st.png,static\countries\st\1024.png
+El Salvador,North America,San Salvador,static\countries\sv\sv.png,static\countries\sv\1024.png
+Syria,Asia,Damascus,static\countries\sy\sy.png,static\countries\sy\1024.png
+Swaziland,Africa,Mbabane,static\countries\sz\sz.png,static\countries\sz\1024.png
+Chad,Africa,N'Djamena,static\countries\td\td.png,static\countries\td\1024.png
+Togo,Africa,Lomé,static\countries\tg\tg.png,static\countries\tg\1024.png
+Thailand,Asia,Bangkok,static\countries\th\th.png,static\countries\th\1024.png
+Tajikistan,Asia,Dushanbe,static\countries\tj\tj.png,static\countries\tj\1024.png
+Timor-Leste,Asia,Dili,static\countries\tl\tl.png,static\countries\tl\1024.png
+Turkmenistan,Asia,Ashgabat,static\countries\tm\tm.png,static\countries\tm\1024.png
+Tunisia,Africa,Tunis,static\countries\tn\tn.png,static\countries\tn\1024.png
+Tonga,Oceania,Nukuʻalofa,static\countries\to\to.png,static\countries\to\1024.png
+Turkey,Asia,Ankara,static\countries\tr\tr.png,static\countries\tr\1024.png
+Trinidad and Tobago,North America,Port of Spain,static\countries\tt\tt.png,static\countries\tt\1024.png
+Tanzania,Africa,Dodoma,static\countries\tz\tz.png,static\countries\tz\1024.png
+Ukraine,Europe,Kyiv,static\countries\ua\ua.png,static\countries\ua\1024.png
+Uganda,Africa,Kampala,static\countries\ug\ug.png,static\countries\ug\1024.png
+United States,North America,"Washington, D.C.",static\countries\us\us.png,static\countries\us\1024.png
+Uruguay,South America,Montevideo,static\countries\uy\uy.png,static\countries\uy\1024.png
+Uzbekistan,Asia,Tashkent,static\countries\uz\uz.png,static\countries\uz\1024.png
+Vatican City,Europe,Vatican City,static\countries\va\va.png,static\countries\va\1024.png
+Saint Vincent and the Grenadines,North America,Kingstown,static\countries\vc\vc.png,static\countries\vc\1024.png
+Venezuela,South America,Caracas,static\countries\ve\ve.png,static\countries\ve\1024.png
+Vietnam,Asia,Hanoi,static\countries\vn\vn.png,static\countries\vn\1024.png
+Vanuatu,Oceania,Port Vila,static\countries\vu\vu.png,static\countries\vu\1024.png
+Samoa,Oceania,Apia,static\countries\ws\ws.png,static\countries\ws\1024.png
+Yemen,Asia,Sana'a,static\countries\ye\ye.png,static\countries\ye\1024.png
+South Africa,Africa,Pretoria,static\countries\za\za.png,static\countries\za\1024.png
+Zambia,Africa,Lusaka,static\countries\zm\zm.png,static\countries\zm\1024.png
+Zimbabwe,Africa,Harare,static\countries\zw\zw.png,static\countries\zw\1024.png

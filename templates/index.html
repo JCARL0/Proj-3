@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Country!</title>
-    <!-- Link to external CSS file -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
-</head>
 </head>
 <body class="mainbody">
     <header class="header">
@@ -14,48 +12,57 @@
     </header>
 
     <main>
-        <form action="/results" method="POST" class="formulario">
-            <input type="text" name="guess" id="guess-input" placeholder="Enter the Country"/>
-            <input type="hidden" name="country_name" value="{{ country_name }}">
-            <input type="submit" value="Submit">
-            {% if wrong_guesses < 6 %}
-            <button type="submit" name="action" value="skip">Skip</button>
-            {% endif %}
-        </form>
-
-        <!-- Country Details Section -->
         <div id="country-details">
+            <!-- Display the outline image of the country -->
+            <img class="outline" src="{{ country.Outline.values()|first }}" alt="Outline">
             <h2>Country Details</h2>
-            <!-- Hide the country name -->
-            <p>Country: <span id="country">???????</span></p>
+            <!-- Section displaying the remaining guess count -->
+            <div id="guess-count">
+                <p>
+                    Remaining Guesses: {{ remaining_guesses }}
+                </p>
+            </div>
+            <!-- Show the continent if there are at least 2 wrong guesses -->
             {% if wrong_guesses >= 2 %}
             <p>Continent: <span id="continent">{{ country.Continent.values()|first }}</span></p>
             {% endif %}
+            <!-- Show the capital if there are at least 4 wrong guesses -->
             {% if wrong_guesses >= 4 %}
             <p>Capital: <span id="capital">{{ country.Capital.values()|first }}</span></p>
             {% endif %}
-            <img class="outline" src="{{ country.Outline.values()|first }}" alt="Outline">
+            <!-- Show the flag if there are at least 6 wrong guesses -->
             {% if wrong_guesses >= 6 %}
-            <!-- Display the flag and outline using paths from the CSV -->
             <img class="flag" src="{{ country.Flag.values()|first }}" alt="Flag">
             {% endif %}
-        </div>
 
-        <!-- Message for incorrect guess or game over -->
-        {% if message %}
-        <div id="message">
-            <p id="try-again-message">{{ message }}</p>
-            {% if message == "You've guessed the correct answer!" or wrong_guesses >= 8 %}
-            <form action="/" method="GET">
-                <input type="submit" value="Play Again">
+            <!-- Form to submit the guess  -->
+            <form action="/results" method="POST" class="formulario" {% if wrong_guesses >= 8 %} style="display: none;" {% endif %} > <!-- hide the form if there are 8 or more wrong guesses -->
+                <input type="text" name="guess" placeholder="Enter the Country"/>
+                <!-- Hidden fields to send additional data -->
+                <input type="hidden" name="country_name" value="{{ country_name }}">
+                <input type="hidden" name="wrong_guesses" value="{{ wrong_guesses }}">
+                <input type="submit" value="Submit">
+                <!-- Skip button if there are less than 4 wrong guesses -->
+                {% if wrong_guesses < 4 %}
+                <button type="submit" name="action" value="skip">Skip</button>
+                {% endif %}
+            </form>
+
+            <!-- Play Again button if there are 8 or more wrong guesses -->
+            {% if wrong_guesses >= 8 %}
+            <form action="/results" method="POST" class="formulario">
+                <input type="hidden" name="action" value="play_again">
+                <button type="submit">Play Again</button>
             </form>
             {% endif %}
         </div>
+
+        <!-- Feedback message based on the guess result -->
+        {% if message %}
+        <div id="message" class="{% if correct_guess %}correct-message{% else %}incorrect-message{% endif %}" {% if not message %}style="display: none;"{% endif %}> 
+            <p>{{ message }}</p>
+        </div>
         {% endif %}
     </main>
-
-    <footer>
-        <!-- <p>&copy; 2024 YourGameName</p> -->
-    </footer> 
 </body>
 </html>
